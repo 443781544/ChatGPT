@@ -15,7 +15,6 @@ setup(
     install_requires=[
         "OpenAIAuth==0.3.2",
         "requests[socks]",
-        "asyncio",
         "httpx[socks]",
     ],
     extras_require={
